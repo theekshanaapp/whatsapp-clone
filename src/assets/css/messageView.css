@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.messageView{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A1014;
+    width: 1500px;
+    font-family: "Inter", sans-serif;
+    border-left: 1px solid #344249;
+}
+
+.messageView__header {
+    background-color: #202C33;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+
+.messageView__user {
+    display: flex;
+}
+
+.messageView__user img {
+    width: 45px;
+    height: 45px;
+    border-radius: 55px;
+}
+
+.messageView__user span {
+    color: white;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.messageView__headerIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    padding-right: 20px;
+}
+
+.messageView__headerIcon {
+    font-size: 20px;
+    color: #AEBAC1;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.messageView__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 0;
+    height: 100%;
+}
+
+.messageView__footer{
+    background-color: #2A3942;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.messageView__footerIcons{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
+
+.messageView__footerIcon{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #AEBAC1;
+    cursor: pointer;
+}
+
+.messageView__input{
+    
+}
+
+.messageView__input input{
+    padding: 15px 20px;
+    background-color: #202c33;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 800px;
+    border-radius: 10px;
+    color: white;
+}
